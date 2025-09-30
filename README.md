@@ -1,6 +1,16 @@
 # Functional-and-Geometric-Data-Analysis
 Methods for analyzing functions, curves, shapes; treating data in spatial/temporal continuous spaces, multiscale geometry and topological data analysis. 
 Step-by-step project plan
+<img width="334" height="418" alt="Screenshot 2025-09-30 234044" src="https://github.com/user-attachments/assets/8323a7ed-cdae-4c50-90d5-be1f42f43cc9" />
+
+
+<img width="696" height="418" alt="Screenshot 2025-09-30 233912" src="https://github.com/user-attachments/assets/cd5768d0-3cfd-4604-903f-23788ec1a0ac" />
+
+<img width="662" height="427" alt="Screenshot 2025-09-30 234017" src="https://github.com/user-attachments/assets/e8e7d607-2480-4e0e-aa27-668f759eaa28" />
+
+
+
+
 1) Define the question & success criteria
 Tools & libraries (quick list)
 
@@ -25,6 +35,8 @@ pip install numpy pandas scipy matplotlib scikit-learn scikit-fda geomstats rips
 
 Expected: environment with necessary libs.
 Tip: keep a data/, notebooks/, scripts/, results/ folder.
+<img width="641" height="423" alt="Screenshot 2025-09-30 233938" src="https://github.com/user-attachments/assets/76f18d9a-abb9-4d0b-a3e7-c821df42c3ba" />
+<img width="614" height="418" alt="Screenshot 2025-09-30 233952" src="https://github.com/user-attachments/assets/0f353bce-7bdf-47fd-8191-2de0c7c78f39" />
 
 1) Define the question and success metric (1–2 lines)
 
@@ -51,13 +63,15 @@ times = np.load("data/functional/times.npy")     # time grid
 import glob
 landmarks = [np.load(f) for f in sorted(glob.glob("data/geometric/landmarks_*.npy"))]
 
+<img width="606" height="436" alt="Screenshot 2025-09-30 234032" src="https://github.com/user-attachments/assets/120de31e-554b-4631-97f5-61065770eb97" />
 
 Checks: shapes, missing values, time grid regularity.
 Pitfall: irregular time sampling — keep raw times if irregular.
 
 3) Exploratory Data Analysis (EDA) — visualize raw data
 
-Goal: understand noise, phase shifts, and shape variability.
+Goal: understand n<img width="606" height="436" alt="Screenshot 2025-09-30 234032" src="https://github.com/user-attachments/assets/65f8095a-0cd3-4616-b313-8cd2b899d5ab" />
+oise, phase shifts, and shape variability.
 Tools: matplotlib, seaborn (optional)
 Actions:
 
