@@ -248,7 +248,7 @@ Reconstruction error thresholds to pick number of FPCA components.
 Tip: record seeds and versions for reproducibility.
 
 14) Visualization & deliverables
-
+    
 Goal: package results for others.
 Deliverables:
 
@@ -269,6 +269,7 @@ Flattening manifold data: flattening shapes naively can lose geometry — use ta
 
 Small sample size: manifold / TDA estimators can be noisy for small n — report uncertainty.
 
-Feature leakage: when building features, avoid using label information in preprocessing steps across train/test split — e.g. compute FPCA on training set only when doing cv 
+Feature leakage: when building features, avoid using label information in preprocessing steps across train/test split — e.g. compute FPCA on training set only when doing CV.
+
 
 
