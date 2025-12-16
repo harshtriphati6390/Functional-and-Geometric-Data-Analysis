@@ -29,7 +29,7 @@ Actions:
 
 # (conda)
 conda create -n fgda python=3.9 -y
-conda activate fgda
+conda activate fgda ,
 pip install numpy pandas scipy matplotlib scikit-learn scikit-fda geomstats ripser persim jupyter
 
 
